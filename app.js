@@ -30,8 +30,8 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
             document.getElementById('current-'+activePlayer).textContent = roundScore;        
         }else
         {
-            scores[activePlayer] = 0;
-            document.getElementById('score-'+activePlayer).textContent = '0';
+           // scores[activePlayer] = 0;
+            //document.getElementById('score-'+activePlayer).textContent = '0';
         
             nextPlayer();
         }
